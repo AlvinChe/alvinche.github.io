@@ -11,9 +11,9 @@
   <entry>
     <title><![CDATA[搭建hexo博客]]></title>
     <url>%2F2019%2F03%2F13%2F%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[动机：看到别人有，羡慕，觉得好玩，实践了一下，前后大概两小时 相关软件安装 Git Node.js Hexo $ npm install -g hexo-cli Hexo 环境配置 Hexo主题 选一个自己喜欢的主题，我这里直接用了教程里的nexT，后面遇到喜欢的再改吧Github 主页 ： https://github.com/theme-next/hexo-theme-next 12$ cd hexo$ git clone https://github.com/theme-next/hexo-theme-next themes/next 选一个空白的不需要管理员权限的文件夹，打开git bash，在终端输入 $ hexo 初始化博客 123456#建立一个博客文件夹，并初始化博客，&lt;folder&gt;为文件夹的名称，可以随便起名字$ hexo init &lt;folder&gt;#进入博客文件夹，&lt;folder&gt;为文件夹的名称$ cd &lt;folder&gt;# node.js的命令，根据博客既定的dependencies配置安装所有的依赖包$ npm install 基本配置 比如博客名，个人介绍呀，参考了这篇文章简书:Hexo的Next主题详细配置 站点计数 好像配置的有点问题，还需要改 配置在线后台管理 hexo 有个插件可以在网页上对博客进行管理，但是我觉得使用起来并不流流畅，还不如使用本地markdown工具Typora，不过配不配和用不用又没什么直接关系。 Hexo-admin 1$ nmp i hexo-admin --save 这个时候，登录 http://localhost:4000/admin 即可查看所有文章内容，并可视化进行修改,还可以添加配置后台账号密码，我没设置，反正自己电脑。 通过域名访问博客 绑到了GitHub.io，具体教程可以看这里GitHub+Hexo 搭建个人网站详细教程 不买个域名是因为买过，然后没怎么用就忘掉了。 有机会再绑自己的域名吧]]></content>
+    <content type="text"><![CDATA[1动机：看到别人有，羡慕，觉得好玩，实践了一下，前后大概两小时 相关软件安装1.Git 2.Node.js 3.Hexo $ npm install -g hexo-cli Hexo 环境配置1.Hexo主题 选一个自己喜欢的主题，我这里直接用了教程里的nexT，后面遇到喜欢的再改吧 Github 主页 12$ cd hexo$ git clone https://github.com/theme-next/hexo-theme-next themes/next 2.初始化博客 选一个空白的不需要管理员权限的文件夹，打开git bash，在终端输入下面的代码，初始化博客 123456#建立一个博客文件夹，并初始化博客，&lt;folder&gt;为文件夹的名称，可以随便起名字$ hexo init &lt;folder&gt;#进入博客文件夹，&lt;folder&gt;为文件夹的名称$ cd &lt;folder&gt;# node.js的命令，根据博客既定的dependencies配置安装所有的依赖包$ npm install 3.基本配置 比如博客名，个人介绍呀，参考了这篇文章简书:Hexo的Next主题详细配置 1.站点计数 可以直接在配置里将busuanzi的false改成true，参考文档 2.配置在线后台管理 hexo 有个插件可以在网页上对博客进行管理，但是我觉得使用起来并不流流畅，还不如使用本地markdown工具Typora，不过配不配和用不用又没什么直接关系。 3.Hexo-admin `$ nmp i hexo-admin --save` 这个时候，登录 http://localhost:4000/admin 即可查看所有文章内容，并可视化进行修改。 还可以添加配置后台账号密码，我没设置，哈哈。 4.通过域名访问博客 绑到了GitHub.io，具体教程可以看这里[GitHub+Hexo 搭建个人网站详细教程](https://zhuanlan.zhihu.com/p/26625249) 不绑域名是因为买过，然后没怎么用就忘掉了。 有机会再绑自己的域名吧 4.小问题+ busuanzi计数问题（未解决） + 主题语言设定问题，中文要使用 zh-CN + 无需列表换行问题（未解决）]]></content>
       <tags>
-        <tag>hexo, 环境配置</tag>
+        <tag>hexo 环境配置</tag>
       </tags>
   </entry>
 </search>

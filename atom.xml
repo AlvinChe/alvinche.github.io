@@ -41,19 +41,18 @@
     <title>搭建hexo博客</title>
     <link href="http://yoursite.com/2019/03/13/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2019/03/13/搭建hexo博客/</id>
-    <published>2019-03-13T05:52:30.000Z</published>
-    <updated>2019-03-13T08:15:45.014Z</updated>
+    <published>2019-03-13T05:52:00.000Z</published>
+    <updated>2019-03-13T09:02:20.545Z</updated>
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;动机：看到别人有，羡慕，觉得好玩，实践了一下，前后大概两小时&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;动机：看到别人有，羡慕，觉得好玩，实践了一下，前后大概两小时&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;hr&gt;
     
     </summary>
     
     
-      <category term="hexo, 环境配置" scheme="http://yoursite.com/tags/hexo-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+      <category term="hexo 环境配置" scheme="http://yoursite.com/tags/hexo-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
