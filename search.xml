@@ -10,7 +10,7 @@
   </entry>
   <entry>
     <title><![CDATA[搭建hexo博客]]></title>
-    <url>%2F2018%2F03%2F13%2F%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%2F</url>
+    <url>%2F2019%2F03%2F13%2F%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%2F</url>
     <content type="text"><![CDATA[动机：看到别人有，觉得好玩，实践了一下，前后大概两小时 相关软件安装 Git Node.js Hexo $ npm install -g hexo-cli 选一个空白的不需要管理员权限的文件夹，打开git bash，在终端输入 $ hexo 初始化博客 123456#建立一个博客文件夹，并初始化博客，&lt;folder&gt;为文件夹的名称，可以随便起名字$ hexo init &lt;folder&gt;#进入博客文件夹，&lt;folder&gt;为文件夹的名称$ cd &lt;folder&gt;# node.js的命令，根据博客既定的dependencies配置安装所有的依赖包$ npm install]]></content>
       <tags>
         <tag>搭建hexo 博客</tag>
