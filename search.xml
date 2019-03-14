@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo使用过中遇到的一个小问题]]></title>
+    <url>%2Fhexo%E4%BD%BF%E7%94%A8%E8%BF%87%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[问题描述新博客搭建不久，突然hexo g报错， 12345678910111213$ hexo g(node:14620) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.INFO [hexo-math] Using engine &apos;mathjax&apos;INFO Start processingFATAL Something&apos;s wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.htmlTemplate render error: (unknown path) [Line 12, Column 47] expected variable end at Object._prettifyError (D:\hexo\node_modules\nunjucks\src\lib.js:36:11) at Template.render (D:\hexo\node_modules\nunjucks\src\environment.js:542:21) at Environment.renderString (D:\hexo\node_modules\nunjucks\src\environment.js:380:17) at Promise.fromCallback.cb (D:\hexo\node_modules\hexo\lib\extend\tag.js:62:48) at tryCatcher (D:\hexo\node_modules\bluebird\js\release\util.js:16:23) at Function.Promise.fromNode.Promise.fromCallback (D:\hexo\node_modules\bluebird\js\release\promise.js:180:30) 删除新写的文章之后，问题消失了， 仔细检查发现文章中公式里出现了两个连续的中括号“{ {”，导致了异常 解决方案用空格给隔开就好了]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[2019年3月11日 暑期实习之腾讯面试]]></title>
     <url>%2F2019%E5%B9%B43%E6%9C%8811%E6%97%A5-%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E4%B9%8B%E8%85%BE%E8%AE%AF%E9%9D%A2%E8%AF%95%2F</url>
     <content type="text"><![CDATA[1. 基本情况2019年暑期实习提前批-腾讯安全云（内推自师姐的闺蜜） 2. 面试内容（30分钟） 自我介绍 介绍你的研究方向和项目 数据不平衡问题怎么解决的 如何降维，考虑用什么方法，为什么用这个方法 使用了什么算法， 哪一个效果好，为什么效果好 如何检测异常值，如何处理误判 如何处理过拟合问题 描述L1,L2，本质和区别 机器学习基本算法了解哪些 请介绍SVM SVM对偶问题 核函数有哪些 哪些可以成为核函数（半正定） 随机森林，gbdt，xgboost的区别与关系 深度学习算法了解哪些 描述CNN 计算卷积之后的矩阵大小，一共有多少个参数 SQL in join时如何解决数据不均衡的问题 3. 总结首次面试，电面不考算法题。主要问项目细节和基础知识。 只争取到两天复习时间，准备得很不充分 准备不充分（自我介绍，项目介绍，项目细节要自己过几遍） 基础不扎实，卷积怎么算都不记得了 很多时候，如果面试官问到一个比较基础的问题，你没答上来，那你就跪了，所以回答之前要三思熟虑，别急着回答，好好想一想。 好好准备吧，后面多投一投，至少面个15家公司再说 Offer = 0.3心态 + 0.5实力 + 0.2运气，缺一不可 越早开始准备越好，准备的越充分越好 切忌眼高手低。前期尽量多利用小公司的面试机会来锻炼自己，积累经验。 在面试的过程中找准自己的定位，并且适当的根据面试情况及时调整自己的定位和目标，保持信心，但不能盲目自信。不管是大公司还是小公司，尽早拿到第一个offer。]]></content>
@@ -12,7 +20,7 @@
   <entry>
     <title><![CDATA[LR 机器学习复习笔记-1]]></title>
     <url>%2FLR-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0-1%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[1. 基本原理 逻辑斯特回归，Logistic Regression，二分类问题 算法性质：他的输出永远在0到1之间 适用情况：标签y取离散值 如何拟合参数的： 将根据参数得到的计算值映射到0-1区间 2. 推导公式训练集：$ { ( x ^ { ( 1 ) } ,y ^ { ( 2 ) } ) , ( x ^ { ( 1 ) },y ^ { ( 2 ) } ),…,( x ^ { ( m ) },y ^ { ( m ) } ) } $ 数据范围：$ x \in [ x_0 , x_1 , … , x_n ] ^T , y \in { {0,1} } $ LR映射函数sigmoid : $ h_\theta(x) = \dfrac{ 1 } { 1+e^{ - \theta^T x} } $ 损失函数：$Cost(h_\theta(x),y) = -y \log(h_\theta( x ) ) - (1-y) \log(1-h_\theta(x) )$ PS:为什么不用线性模型的平方和（MSE） 答：将平方和带入 $ h_\theta(x) $ 会得到一个非凸函数（non-convexfunction），非凸函数影响梯度随机算法寻找全局最小值 代价函数：$ J(\theta)= \dfrac{ 1 } { m } \sum^m_{ i=1 } Cost(h_\theta(x^{ (i ) } ) - y ^ { ( i ) } ) $ 代价函数与损失函数关系：个体与总体的关系 3. 代价函数代码12345678import numpy as npdef cost(theta, X, y)： theta = np.matrix(theta) X = np.matrix(X) y = np.matrix(y) first = np.multiply(-y, np.log(sigmoid(X*theta.T))) second = np,multiply(1-y,np.log(1-sigmoid(X*theta.T))) return np.sum(first-second)/(len(X)) 4. 如何求得使代价函数最小的参数梯度下降算法: $repeat { { \theta_ j:= \theta_j - \alpha \frac { \partial } { \partial_{ \theta_j } } J (\theta) } } ;​$ $ Want \min _\theta J(\theta) ​$: $repeat { { \theta_ j:= \theta_j - \alpha \frac{ 1 } { m } \sum_{ i=1 }^m (h_\theta( x ^ { i } ) - y^{ ( i ) } ) } x_j^ { ( i ) }$ 5. 如何理解梯度下降参考这篇文章：深入浅出–梯度下降法及其实现 复习的时候脑子一时短路，想不明白梯度下降的原理了 6. 面试常常问到的问题后面再补]]></content>
   </entry>
   <entry>
     <title><![CDATA[leetcode - 904 水果成篮]]></title>

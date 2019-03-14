@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-14T06:09:42.086Z</updated>
+  <updated>2019-03-14T07:05:57.697Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo使用过中遇到的一个小问题</title>
+    <link href="http://yoursite.com/hexo%E4%BD%BF%E7%94%A8%E8%BF%87%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/hexo使用过中遇到的一个小问题/</id>
+    <published>2019-03-14T06:59:34.000Z</published>
+    <updated>2019-03-14T07:05:57.697Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h5 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h5&gt;&lt;p&gt;新博客搭建不久，突然&lt;code&gt;hexo g&lt;/code&gt;报错，&lt;/p&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>2019年3月11日 暑期实习之腾讯面试</title>
@@ -41,9 +66,11 @@
     <link href="http://yoursite.com/LR-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0-1/"/>
     <id>http://yoursite.com/LR-机器学习复习笔记-1/</id>
     <published>2019-03-14T02:39:57.000Z</published>
-    <updated>2019-03-14T02:44:04.859Z</updated>
+    <updated>2019-03-14T06:57:33.445Z</updated>
     
     <summary type="html">
+    
+      &lt;h4 id=&quot;1-基本原理&quot;&gt;&lt;a href=&quot;#1-基本原理&quot; class=&quot;headerlink&quot; title=&quot;1. 基本原理&quot;&gt;&lt;/a&gt;1. 基本原理&lt;/h4&gt;
     
     </summary>
     
