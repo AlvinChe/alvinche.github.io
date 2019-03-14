@@ -508,51 +508,38 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">动机：看到别人有，羡慕，觉得好玩，实践了一下，前后大概两小时</span><br></pre></td></tr></table></figure>
 <hr>
 <a id="more"></a>
-<h4 id="相关软件安装"><a class="markdownIt-Anchor" href="#相关软件安装"></a> 相关软件安装</h4>
-<ul>
-<li>
-<p>Git</p>
+<h4 id="相关软件安装"><a href="#相关软件安装" class="headerlink" title="相关软件安装"></a>相关软件安装</h4><ul>
+<li><p>Git</p>
 </li>
-<li>
-<p>Node.js</p>
+<li><p>Node.js</p>
 </li>
-<li>
-<p>Hexo</p>
-<p><code>$ npm install -g hexo-cli</code></p>
+<li><p>Hexo</p>
+<p>  <code>$ npm install -g hexo-cli</code></p>
 </li>
 </ul>
-<h4 id="hexo-环境配置"><a class="markdownIt-Anchor" href="#hexo-环境配置"></a> Hexo 环境配置</h4>
-<h6 id="1hexo主题"><a class="markdownIt-Anchor" href="#1hexo主题"></a> 1.Hexo主题</h6>
-<p>选一个自己喜欢的主题，我这里直接用了教程里的nexT，后面遇到喜欢的再改吧<br>
-<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Github 主页</a></p>
+<h4 id="Hexo-环境配置"><a href="#Hexo-环境配置" class="headerlink" title="Hexo 环境配置"></a>Hexo 环境配置</h4><h6 id="1-Hexo主题"><a href="#1-Hexo主题" class="headerlink" title="1.Hexo主题"></a>1.Hexo主题</h6><p>  选一个自己喜欢的主题，我这里直接用了教程里的nexT，后面遇到喜欢的再改吧<br>  <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Github 主页</a></p>
   <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> hexo</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next</span></span><br></pre></td></tr></table></figure>
-<h6 id="2初始化博客"><a class="markdownIt-Anchor" href="#2初始化博客"></a> 2.初始化博客</h6>
-<p>选一个空白的不需要管理员权限的文件夹，打开git bash，在终端输入下面的代码，初始化博客</p>
+<h6 id="2-初始化博客"><a href="#2-初始化博客" class="headerlink" title="2.初始化博客"></a>2.初始化博客</h6><p> 选一个空白的不需要管理员权限的文件夹，打开git bash，在终端输入下面的代码，初始化博客</p>
   <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">建立一个博客文件夹，并初始化博客，&lt;folder&gt;为文件夹的名称，可以随便起名字</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo init &lt;folder&gt;</span></span><br><span class="line"><span class="meta">#</span><span class="bash">进入博客文件夹，&lt;folder&gt;为文件夹的名称</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> &lt;folder&gt;</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> node.js的命令，根据博客既定的dependencies配置安装所有的依赖包</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install</span></span><br></pre></td></tr></table></figure>
-<h6 id="3基本配置"><a class="markdownIt-Anchor" href="#3基本配置"></a> 3.基本配置</h6>
-<p>比如博客名，个人介绍呀，参考了这篇文章<a href="https://www.jianshu.com/p/3a05351a37dc" target="_blank" rel="noopener">简书:Hexo的Next主题详细配置</a></p>
-<p>1.站点计数</p>
-<p>可以直接在配置里将busuanzi的false改成true，参考<a href="https://www.jianshu.com/p/c311d31265e0" target="_blank" rel="noopener">文档</a></p>
+<h6 id="3-基本配置"><a href="#3-基本配置" class="headerlink" title="3.基本配置"></a>3.基本配置</h6><p>  比如博客名，个人介绍呀，参考了这篇文章<a href="https://www.jianshu.com/p/3a05351a37dc" target="_blank" rel="noopener">简书:Hexo的Next主题详细配置</a></p>
+<p>  1.站点计数</p>
+<p>   可以直接在配置里将busuanzi的false改成true，参考<a href="https://www.jianshu.com/p/c311d31265e0" target="_blank" rel="noopener">文档</a></p>
 <p>2.配置在线后台管理</p>
-<p>hexo 有个插件可以在网页上对博客进行管理，但是我觉得使用起来并不流流畅，还不如使用本地markdown工具<a href="https://typora.io/" target="_blank" rel="noopener">Typora</a>，不过配不配和用不用又没什么直接关系。</p>
+<p>  hexo 有个插件可以在网页上对博客进行管理，但是我觉得使用起来并不流流畅，还不如使用本地markdown工具<a href="https://typora.io/" target="_blank" rel="noopener">Typora</a>，不过配不配和用不用又没什么直接关系。</p>
 <p>3.Hexo-admin</p>
 <pre><code>`$ nmp i hexo-admin --save`
-</code></pre>
-<p>这个时候，登录 <a href="http://localhost:4000/admin" target="_blank" rel="noopener">http://localhost:4000/admin</a> 即可查看所有文章内容，并可视化进行修改。</p>
-<p>还可以添加配置后台账号密码，我没设置，哈哈。</p>
+</code></pre><p>  这个时候，登录 <a href="http://localhost:4000/admin" target="_blank" rel="noopener">http://localhost:4000/admin</a> 即可查看所有文章内容，并可视化进行修改。</p>
+<p>  还可以添加配置后台账号密码，我没设置，哈哈。</p>
 <p>4.通过域名访问博客</p>
-<p><a href="http://xn--GitHub-2e8i73w3v2i.io" target="_blank" rel="noopener">绑到了GitHub.io</a>，具体教程可以看这里<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+Hexo 搭建个人网站详细教程</a><br>
-不绑域名是因为买过，然后没怎么用就忘掉了。<br>
-有机会再绑自己的域名吧</p>
+<p>绑到了GitHub.io，具体教程可以看这里<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+Hexo 搭建个人网站详细教程</a><br>不绑域名是因为买过，然后没怎么用就忘掉了。<br>有机会再绑自己的域名吧</p>
 <p>5.添加评论(2019年3月14添加)</p>
 <p>也是超级方便几行代码，详细参考这个<a href="https://blog.csdn.net/blue_zy/article/details/79071414" target="_blank" rel="noopener">为你的Hexo加上评论系统-Valine</a></p>
 <p>有个小bug就是，在添加appid和appkey的时候，记得删除leancloud占位符</p>
-<h6 id="4小问题"><a class="markdownIt-Anchor" href="#4小问题"></a> 4.小问题</h6>
-<pre><code>busuanzi计数问题（未解决,本地依旧不太对）
+<h6 id="4-小问题"><a href="#4-小问题" class="headerlink" title="4.小问题"></a>4.小问题</h6><pre><code>busuanzi计数问题（未解决,本地依旧不太对）
 主题语言设定问题，中文要使用 zh-CN
 无需列表换行问题（未解决，可能是不同平台的问题）
-数学公式无法渲染（未解决，19.3.14）</code></pre>
-
+数学公式无法渲染（未解决，19.3.14）
+</code></pre>
       
     </div>
 
@@ -769,7 +756,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#相关软件安装"><span class="nav-number">1.</span> <span class="nav-text"> 相关软件安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#hexo-环境配置"><span class="nav-number">2.</span> <span class="nav-text"> Hexo 环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#1hexo主题"><span class="nav-number">2.0.1.</span> <span class="nav-text"> 1.Hexo主题</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#2初始化博客"><span class="nav-number">2.0.2.</span> <span class="nav-text"> 2.初始化博客</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#3基本配置"><span class="nav-number">2.0.3.</span> <span class="nav-text"> 3.基本配置</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#4小问题"><span class="nav-number">2.0.4.</span> <span class="nav-text"> 4.小问题</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#相关软件安装"><span class="nav-number">1.</span> <span class="nav-text">相关软件安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Hexo-环境配置"><span class="nav-number">2.</span> <span class="nav-text">Hexo 环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#1-Hexo主题"><span class="nav-number">2.0.1.</span> <span class="nav-text">1.Hexo主题</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#2-初始化博客"><span class="nav-number">2.0.2.</span> <span class="nav-text">2.初始化博客</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#3-基本配置"><span class="nav-number">2.0.3.</span> <span class="nav-text">3.基本配置</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#4-小问题"><span class="nav-number">2.0.4.</span> <span class="nav-text">4.小问题</span></a></li></ol></li></ol></div>
             
 
           </div>
