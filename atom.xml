@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>袖珍椰子</title>
   
-  <subtitle>图图的胡说八道</subtitle>
+  <subtitle>图图的小打小闹</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -81,13 +81,11 @@
     <link href="http://yoursite.com/LR-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0-1/"/>
     <id>http://yoursite.com/LR-机器学习复习笔记-1/</id>
     <published>2019-03-14T02:39:00.000Z</published>
-    <updated>2019-03-26T04:44:46.247Z</updated>
+    <updated>2019-03-26T06:21:16.321Z</updated>
     
     <summary type="html">
     
-      &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
-&lt;/script&gt;
-&lt;h4 id=&quot;1-基本原理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1-基本原理&quot;&gt;&lt;/a&gt; 1. 基本原理&lt;/h4&gt;
+      &lt;h4 id=&quot;1-基本原理&quot;&gt;&lt;a href=&quot;#1-基本原理&quot; class=&quot;headerlink&quot; title=&quot;1. 基本原理&quot;&gt;&lt;/a&gt;1. 基本原理&lt;/h4&gt;
     
     </summary>
     
@@ -125,7 +123,7 @@
     <link href="http://yoursite.com/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/搭建hexo博客/</id>
     <published>2019-03-13T05:52:00.000Z</published>
-    <updated>2019-03-26T04:51:32.576Z</updated>
+    <updated>2019-03-26T06:20:07.144Z</updated>
     
     <summary type="html">
     
