@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-14T07:06:47.160Z</updated>
+  <updated>2019-03-21T02:48:08.774Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>剑指offer（第二版）学习记录卡</title>
+    <link href="http://yoursite.com/%E5%89%91%E6%8C%87offer%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%8D%A1/"/>
+    <id>http://yoursite.com/剑指offer（第二版）学习记录卡/</id>
+    <published>2019-03-21T02:09:14.000Z</published>
+    <updated>2019-03-21T02:48:08.774Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;题目&lt;/th&gt;
+&lt;th&gt;解题思路&lt;/th&gt;
+&lt;th&gt;知识点&lt;/th&gt;
+&lt;th&gt;做题时间&lt;/th&gt;
+&lt;th&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;题1：赋值运算符函数&lt;/td&gt;
+&lt;
+        
+      
+    
+    </summary>
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="剑指offer，实习" scheme="http://yoursite.com/tags/%E5%89%91%E6%8C%87offer%EF%BC%8C%E5%AE%9E%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo使用过中遇到的一个小问题</title>

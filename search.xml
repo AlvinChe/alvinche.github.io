@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[剑指offer（第二版）学习记录卡]]></title>
+    <url>%2F%E5%89%91%E6%8C%87offer%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%8D%A1%2F</url>
+    <content type="text"><![CDATA[题目 解题思路 知识点 做题时间 备注 题1：赋值运算符函数 c++基础 未做 题2：实现单例模式 考虑多线程环境 单例模式 待复习 题3：数组中重复的数字 利用hash表来解决 数组 待复习 进阶不修改数组版本 题4：二维数组中的查找 从右下找到左上 数组 待复习 题5：替换空格 从后往前 字符串 我直接用了Python的replace 题6：从尾到头打印链表 利用stack遍历 链表 待复习 题7：重建二叉树 先序+中序 二叉树 待复习 题8：二叉树的下一个节点 递归 二叉树 待复习 题9：用两个栈实现队列 题10：fibonacci数列 递归 递归 待复习 自底向上，自顶向下 题11：旋转数组的最小数字 利用二分查找 数组，二分查找 19.3.21]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>剑指offer，实习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo使用过中遇到的一个小问题]]></title>
     <url>%2Fhexo%E4%BD%BF%E7%94%A8%E8%BF%87%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E9%97%AE%E9%A2%98%2F</url>
     <content type="text"><![CDATA[问题描述 新博客搭建不久，突然hexo g报错， 12345678910111213$ hexo g(node:14620) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.INFO [hexo-math] Using engine &apos;mathjax&apos;INFO Start processingFATAL Something&apos;s wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.htmlTemplate render error: (unknown path) [Line 12, Column 47] expected variable end at Object._prettifyError (D:\hexo\node_modules\nunjucks\src\lib.js:36:11) at Template.render (D:\hexo\node_modules\nunjucks\src\environment.js:542:21) at Environment.renderString (D:\hexo\node_modules\nunjucks\src\environment.js:380:17) at Promise.fromCallback.cb (D:\hexo\node_modules\hexo\lib\extend\tag.js:62:48) at tryCatcher (D:\hexo\node_modules\bluebird\js\release\util.js:16:23) at Function.Promise.fromNode.Promise.fromCallback (D:\hexo\node_modules\bluebird\js\release\promise.js:180:30) 删除新写的文章之后，问题消失了， 仔细检查发现文章中公式里出现了两个连续的中括号“{ {”，导致了异常 解决方案 用空格给隔开就好了]]></content>
