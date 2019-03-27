@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://alvinche.github.io/"/>
-  <updated>2019-03-27T09:01:00.965Z</updated>
+  <updated>2019-03-27T09:09:21.694Z</updated>
   <id>http://alvinche.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://alvinche.github.io//2019/03/27/%E5%92%8C%E5%AF%BC%E5%B8%88%E8%B0%88%E8%AF%9D%E5%90%8E%E7%9A%84%E6%80%9D%E8%80%83.html"/>
     <id>http://alvinche.github.io//2019/03/27/和导师谈话后的思考.html</id>
     <published>2019-03-27T08:18:03.000Z</published>
-    <updated>2019-03-27T09:01:00.965Z</updated>
+    <updated>2019-03-27T09:09:21.694Z</updated>
     
     <summary type="html">
     
@@ -38,7 +38,9 @@
       <category term="生活" scheme="http://alvinche.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="思考，闲聊" scheme="http://alvinche.github.io/tags/%E6%80%9D%E8%80%83%EF%BC%8C%E9%97%B2%E8%81%8A/"/>
+      <category term="思考" scheme="http://alvinche.github.io/tags/%E6%80%9D%E8%80%83/"/>
+    
+      <category term="闲聊" scheme="http://alvinche.github.io/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   
