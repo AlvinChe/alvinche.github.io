@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>袖珍椰子</title>
+  
+  <subtitle>图图的小打小闹</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://alvinche.github.io/"/>
+  <updated>2019-03-26T04:50:23.501Z</updated>
+  <id>http://alvinche.github.io/</id>
+  
+  <author>
+    <name>图啊图啊图</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>剑指offer（第二版）学习记录卡</title>
+    <link href="http://alvinche.github.io//2019/03/21/%E5%89%91%E6%8C%87offer%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%8D%A1.html"/>
+    <id>http://alvinche.github.io//2019/03/21/剑指offer（第二版）学习记录卡.html</id>
+    <published>2019-03-21T02:09:14.000Z</published>
+    <updated>2019-03-26T04:50:23.501Z</updated>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+    
+    </summary>
+    
+      <category term="学习" scheme="http://alvinche.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="剑指offer，实习" scheme="http://alvinche.github.io/tags/%E5%89%91%E6%8C%87offer%EF%BC%8C%E5%AE%9E%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo使用过中遇到的一个小问题</title>
+    <link href="http://alvinche.github.io//2019/03/14/hexo%E4%BD%BF%E7%94%A8%E8%BF%87%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E9%97%AE%E9%A2%98.html"/>
+    <id>http://alvinche.github.io//2019/03/14/hexo使用过中遇到的一个小问题.html</id>
+    <published>2019-03-14T06:59:34.000Z</published>
+    <updated>2019-03-14T07:06:47.160Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;问题描述&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#问题描述&quot;&gt;&lt;/a&gt; 问题描述&lt;/h5&gt;
+&lt;p&gt;新博客搭建不久，突然&lt;code&gt;hexo g&lt;/code&gt;报错，&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://alvinche.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019年3月11日 暑期实习之腾讯面试</title>
+    <link href="http://alvinche.github.io//2019/03/14/2019%E5%B9%B43%E6%9C%8811%E6%97%A5-%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E4%B9%8B%E8%85%BE%E8%AE%AF%E9%9D%A2%E8%AF%95.html"/>
+    <id>http://alvinche.github.io//2019/03/14/2019年3月11日-暑期实习之腾讯面试.html</id>
+    <published>2019-03-14T05:49:11.000Z</published>
+    <updated>2019-03-14T06:09:42.086Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1-基本情况&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1-基本情况&quot;&gt;&lt;/a&gt; 1. 基本情况&lt;/h4&gt;
+&lt;p&gt;2019年暑期实习提前批-腾讯安全云（内推自师姐的闺蜜）&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="面经" scheme="http://alvinche.github.io/tags/%E9%9D%A2%E7%BB%8F/"/>
+    
+      <category term="暑期实习" scheme="http://alvinche.github.io/tags/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LR 机器学习复习笔记-1</title>
+    <link href="http://alvinche.github.io//2019/03/14/LR-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0-1.html"/>
+    <id>http://alvinche.github.io//2019/03/14/LR-机器学习复习笔记-1.html</id>
+    <published>2019-03-14T02:39:00.000Z</published>
+    <updated>2019-03-27T01:57:18.759Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1-基本原理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1-基本原理&quot;&gt;&lt;/a&gt; 1. 基本原理&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="学习" scheme="http://alvinche.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="机器学习，公式推导，面试" scheme="http://alvinche.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%8C%E5%85%AC%E5%BC%8F%E6%8E%A8%E5%AF%BC%EF%BC%8C%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode - 904 水果成篮</title>
+    <link href="http://alvinche.github.io//2019/03/13/leetcode-904-%E6%B0%B4%E6%9E%9C%E6%88%90%E7%AF%AE.html"/>
+    <id>http://alvinche.github.io//2019/03/13/leetcode-904-水果成篮.html</id>
+    <published>2019-03-13T06:56:44.000Z</published>
+    <updated>2019-03-13T06:59:20.165Z</updated>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在一排树中，第 i 棵树产生 tree[i] 型的水果。&lt;br&gt;
+你可以从你选择的任何树开始，然后重复执行以下步骤：&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="leetcode 刷题笔记" scheme="http://alvinche.github.io/tags/leetcode-%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建hexo博客</title>
+    <link href="http://alvinche.github.io//2019/03/13/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2.html"/>
+    <id>http://alvinche.github.io//2019/03/13/搭建hexo博客.html</id>
+    <published>2019-03-13T05:52:00.000Z</published>
+    <updated>2019-03-27T01:58:49.338Z</updated>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;动机：看到别人有，羡慕，觉得好玩，实践了一下，前后大概两小时&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://alvinche.github.io/tags/hexo/"/>
+    
+      <category term="搭建环境" scheme="http://alvinche.github.io/tags/%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83/"/>
+    
+  </entry>
+  
+</feed>
