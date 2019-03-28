@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[和导师谈话后的思考]]></title>
-    <url>%2F%2F2019%2F03%2F27%2F%E5%92%8C%E5%AF%BC%E5%B8%88%E8%B0%88%E8%AF%9D%E5%90%8E%E7%9A%84%E6%80%9D%E8%80%83.html</url>
+    <title><![CDATA[依图科技机器学习算法测试工程师一面（19.3.28）]]></title>
+    <url>%2F%2F2019%2F03%2F28%2F%E4%BE%9D%E5%9B%BE%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E6%B5%8B%E8%AF%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%B8%80%E9%9D%A2%EF%BC%8819-3-28%EF%BC%89.html</url>
+    <content type="text"><![CDATA[依图科技也算是四大视觉算法独角兽之一了，在牛客网上看到招聘信息，投递了一份简历。 3月28日上午11点视频面试。 1. 自我介绍 2. 项目细节 3. 了解java么（我错了！） ​ 3.1 请介绍JVM ​ 3.2 了解GC吗？ 4. 编程能力 ​ 4.1 写一个java多线程（我是真的不会啊，再也不敢说自己会java了） 123// &#123;1,2,3&#125;// &#123;4,5,6&#125;// 请用多线程同时读取两个队列求和，最后汇总 ​ 4.2 括号计算（没写出来，完全没懂面试官的提示，= =） 12345678910111213141516171819202122232425262728# ()--&gt;1# AB--&gt; A+B# (A)--&gt; A*2# 分三种情况考虑，将左括号入栈，遇到右括号出站栈。# 判断栈顶是左括号的时候，push(1)# 判断栈顶是数字时，判断栈顶前一个是数字，累加，是左括号，累乘def sum(s) -&gt; int: result = [] for each in s: if each == '(': result.append(each) elif each == ')': if result[-1] == '(': result[-1] = 1 elif isinstance(result[-1], int): ans = result[-1] result = result[:-1] while isinstance(result[-1], int): result[-1] = result[-1] + ans ans = result[-1] result = result[:-1] result[-1] = ans * 2 return result# print(sum("(()(()))"))print(sum("(()()())")) 5. 有什么要问面试官 你们主要的工作是什么： 算法框架等的深度测评，未来可能会做深度学习框架的东西 比较偏向底层，基本没有业务方面的内容 总结 简历真的要改一改，投岗位也不能胡乱来了，不同的方向内容真的差很多； 基础知识，比如写代码的能力还是要加强，基本的算法题要多看看，掌握基本的套路； 对自己的项目介绍要再多联系，要自己想明白自己做了什么。 彩蛋 实验室小伙伴面试时的算法题：leetcode 754 reach a number]]></content>
+      <categories>
+        <category>找工作</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>实习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[阿里测试工程师一面（19.3.27）]]></title>
+    <url>%2F%2F2019%2F03%2F28%2F%E9%98%BF%E9%87%8C%E6%B5%8B%E8%AF%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%B8%80%E9%9D%A2%EF%BC%8819-3-27%EF%BC%89.html</url>
+    <content type="text"><![CDATA[阿里投的是测试工程师，简历面打过一次电话。昨晚是正儿八经的一面，视频面试。 1 自我介绍 2 有实习么 3 项目 ​ 高性能计算：预测任务是否收敛 ​ 3.1 收敛是指什么收敛 ​ 3.2 业务/技术背景 ​ ​ 3.3 收敛不收敛判断条件 ​ 3.4 是一个软件么，输入输出是什么 ​ ​ 3.5 什么叫好的结果/坏的，具体案例 ​ 3.6 跑具体的数据？ ​ ​ 3.7 哪怕只是一个模型，说一个具体的案例/case ​ ​ 3.8 什么数据，哪儿来的数据 ​ 3.9 准确率怎么评估 ​ 二分类准确率 ​ 3.10 都是手工打标？真实？ ​ 3.11 能不能介绍一下那些公式模型，或者说你的核心工作/责任 ​ ​ 3.12 再具体的详细的 核心的模型/算法 准确率怎么验证，挑一个讲一讲 ​ ​ 3.13 DT/LR/SVM挑一个讲讲 为什么好 4 主要语言是什么 ​ 4.1 java框架 ​ spring 等 ​ 4.2 spring框架aop / 特性 ​ 4.3 数据库接触过么，有什么 ​ mysql sqlserver ​ 安卓应用mysql ​ 4.4 数据库如何提高查询效率 ​ 4.5 mysql的缓存机制 5 有什么问题问面试官 ​ 现在部门工作 ​ 岗位类型：无线/搜索/算法/工具平台开发 ​]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>找实习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[和导师谈话后的整理]]></title>
+    <url>%2F%2F2019%2F03%2F27%2F%E5%92%8C%E5%AF%BC%E5%B8%88%E8%B0%88%E8%AF%9D%E5%90%8E%E7%9A%84%E6%95%B4%E7%90%86.html</url>
     <content type="text"><![CDATA[蹲了老师一个多星期了，终于蹲到了。 和老师聊要不要读博的事情。 老师首先问图图：为什么想读博 图图：觉得自己书还没读够，就要工作了。 老师笑了。 老师： 读博需要一个短时间能把一个东西讲清楚的能力； 抓住重点的能力，找到核心问题的能力 科大人是追求卓越的，科大的校训就是永争第一； 在实验室里，能力是各个方向的；可以是你自己能找出非常好的点子，做非常好的事情；也可以是能组织实验室的人帮你做事情；组织能力等等； 科研精神 师兄在联想工作的案例，扒谷歌的一个框架，作为一个有研究精神的人，应该要怎么做，要思考，为什么人家这么做，谷歌模块的框架是由什么组成的； 有科研精神的人可以做任何事情，只是不愿意做而已（有这个自信） 建模的能力（脑子清楚） 不能把自己的模型丢掉，完全用别人的模型。 图图个人情况： 本科毕业答辩给老师留下的印象不行 最近的科研工作做得也不行（其实图图压根没做，所以也说明了图图其实并不热爱科研）； 一直复现别人的工作是没有意义的 原本要复现的工作就是打了折扣的工作，还没做完，说明没能力/没上心 没对象； 所以图图现在面临的问题是： 读 不读 备注 图图想读 图图科研能力不太行，要花时间培养 这个主要看天赋 导师时间精力有限，而学生又多 需要图图积极 导师今年大概率没名额 可以操作 图图没对象]]></content>
       <categories>
         <category>生活</category>
@@ -28,13 +52,17 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>剑指offer，实习</tag>
+        <tag>剑指offer</tag>
+        <tag>实习复习</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[hexo使用过中遇到的一个小问题]]></title>
     <url>%2F%2F2019%2F03%2F14%2Fhexo%E4%BD%BF%E7%94%A8%E8%BF%87%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E9%97%AE%E9%A2%98.html</url>
     <content type="text"><![CDATA[问题描述 新博客搭建不久，突然hexo g报错， 12345678910111213$ hexo g(node:14620) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.INFO [hexo-math] Using engine &apos;mathjax&apos;INFO Start processingFATAL Something&apos;s wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.htmlTemplate render error: (unknown path) [Line 12, Column 47] expected variable end at Object._prettifyError (D:\hexo\node_modules\nunjucks\src\lib.js:36:11) at Template.render (D:\hexo\node_modules\nunjucks\src\environment.js:542:21) at Environment.renderString (D:\hexo\node_modules\nunjucks\src\environment.js:380:17) at Promise.fromCallback.cb (D:\hexo\node_modules\hexo\lib\extend\tag.js:62:48) at tryCatcher (D:\hexo\node_modules\bluebird\js\release\util.js:16:23) at Function.Promise.fromNode.Promise.fromCallback (D:\hexo\node_modules\bluebird\js\release\promise.js:180:30) 删除新写的文章之后，问题消失了， 仔细检查发现文章中公式里出现了两个连续的中括号“{ {”，导致了异常 解决方案 用空格给隔开就好了]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
       <tags>
         <tag>hexo</tag>
       </tags>
@@ -43,9 +71,12 @@
     <title><![CDATA[2019年3月11日 暑期实习之腾讯面试]]></title>
     <url>%2F%2F2019%2F03%2F14%2F2019%E5%B9%B43%E6%9C%8811%E6%97%A5-%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E4%B9%8B%E8%85%BE%E8%AE%AF%E9%9D%A2%E8%AF%95.html</url>
     <content type="text"><![CDATA[1. 基本情况 2019年暑期实习提前批-腾讯安全云（内推自师姐的闺蜜） 2. 面试内容（30分钟） 自我介绍 介绍你的研究方向和项目 数据不平衡问题怎么解决的 如何降维，考虑用什么方法，为什么用这个方法 使用了什么算法， 哪一个效果好，为什么效果好 如何检测异常值，如何处理误判 如何处理过拟合问题 描述L1,L2，本质和区别 机器学习基本算法了解哪些 请介绍SVM SVM对偶问题 核函数有哪些 哪些可以成为核函数（半正定） 随机森林，gbdt，xgboost的区别与关系 深度学习算法了解哪些 描述CNN 计算卷积之后的矩阵大小，一共有多少个参数 SQL in join时如何解决数据不均衡的问题 3. 总结 首次面试，电面不考算法题。主要问项目细节和基础知识。 只争取到两天复习时间，准备得很不充分 准备不充分（自我介绍，项目介绍，项目细节要自己过几遍） 基础不扎实，卷积怎么算都不记得了 很多时候，如果面试官问到一个比较基础的问题，你没答上来，那你就跪了，所以回答之前要三思熟虑，别急着回答，好好想一想。 好好准备吧，后面多投一投，至少面个15家公司再说 Offer = 0.3心态 + 0.5实力 + 0.2运气，缺一不可 越早开始准备越好，准备的越充分越好 切忌眼高手低。前期尽量多利用小公司的面试机会来锻炼自己，积累经验。 在面试的过程中找准自己的定位，并且适当的根据面试情况及时调整自己的定位和目标，保持信心，但不能盲目自信。不管是大公司还是小公司，尽早拿到第一个offer。]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
       <tags>
         <tag>面经</tag>
-        <tag>暑期实习</tag>
+        <tag>实习</tag>
       </tags>
   </entry>
   <entry>
@@ -56,7 +87,8 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>机器学习，公式推导，面试</tag>
+        <tag>机器学习</tag>
+        <tag>面试复习</tag>
       </tags>
   </entry>
   <entry>
@@ -64,13 +96,17 @@
     <url>%2F%2F2019%2F03%2F13%2Fleetcode-904-%E6%B0%B4%E6%9E%9C%E6%88%90%E7%AF%AE.html</url>
     <content type="text"><![CDATA[在一排树中，第 i 棵树产生 tree[i] 型的水果。 你可以从你选择的任何树开始，然后重复执行以下步骤： 把这棵树上的水果放进你的篮子里。如果你做不到，就停下来。 移动到当前树右侧的下一棵树。如果右边没有树，就停下来。 请注意，在选择一颗树后，你没有任何选择：你必须执行步骤 1，然后执行步骤 2，然后返回步骤 1，然后执行步骤 2，依此类推，直至停止。 你有两个篮子，每个篮子可以携带任何数量的水果，但你希望每个篮子只携带一种类型的水果。 用这个程序你能收集的水果总量是多少？ 示例 1： 输入：[1,2,1] 输出：3 解释：我们可以收集 [1,2,1]。 示例 2： 输入：[0,1,2,2] 输出：3 解释：我们可以收集 [1,2,2]. 如果我们从第一棵树开始，我们将只能收集到 [0, 1]。 示例 3： 输入：[1,2,3,2,2] 输出：4 解释：我们可以收集 [2,3,2,2]. 如果我们从第一棵树开始，我们将只能收集到 [1, 2]。 示例 4： 输入：[3,3,3,1,2,1,1,2,3,3,4] 输出：5 解释：我们可以收集 [1,2,1,1,2]. 如果我们从第一棵树或第八棵树开始，我们将只能收集到 4 个水果。 解题思路 这题其实要求其实很简单，就是找出数组中长度最大的连续由2种元素构成的子数组，返回这个子数组的长度。但由于本题有时间限制，只是朴素的解法会出现超时的情况，需要对实现进行一定的优化。 参考花花酱的hashtable+ sliding windows 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071class Solution &#123;public:// 朴素解法 int totalFruit(vector&lt;int&gt;&amp; tree) &#123; int size = tree.size(); int fruit[size] = &#123;0&#125;; int max =0; for(int i = 0; i&lt; size;i++)&#123; int number = 1; int type1 = -1; // 第一种水果 type1 = tree[i]; int type2 = -1; for(int j = i+1; j&lt;size ;j++)&#123; // 第二种水果 if(tree[j]!=tree[i])&#123; // type2 is null if(type2 &lt; 0)&#123; type2 = tree[j]; number++; &#125;else&#123; // 出现第三种水果，跳出循环 if(tree[j] != type2)&#123; break; &#125;else&#123; number++; &#125; &#125; &#125;else&#123; number++; &#125; &#125; fruit[i] = number; if(number&gt; max) max = number; &#125; return max; &#125; public:// by [花花酱] (https://zxi.mytechroad.com/blog/hashtable/leetcode-904-fruit-into-baskets/) int totalFruit(vector&lt;int&gt;&amp; tree) &#123; map&lt;int, int&gt; idx; // &#123;fruit -&gt; last_index&#125; int ans = 0; int cur = 0; for (int i = 0; i &lt; tree.size(); ++i) &#123; int f = tree[i]; // 取一种水果 if (!idx.count(f)) &#123; // 返回值只有0或1 // !idx.count(f) == 1,即出现某种新水果时 if (idx.size() == 2) &#123; // 如果已经有了两种水果，再出现第三种水果的时候 auto it1 = begin(idx); auto it2 = next(it1); if (it1-&gt;second &gt; it2-&gt;second) swap(it1, it2); // 找到之前两种水果中，下标最小的水果，开始新的窗口 cur = i - it1-&gt;second - 1; // cur存新窗口的大小 idx.erase(it1); // 删除下标较小的水果 &#125; &#125; // 添加新水果的下标信息 idx[f] = i; // 比较新窗口和上一个窗口的大小 ans = max(++cur, ans); &#125; return ans; &#125;&#125;;]]></content>
       <tags>
-        <tag>leetcode 刷题笔记</tag>
+        <tag>leetcode</tag>
+        <tag>刷题笔记</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[搭建hexo博客]]></title>
     <url>%2F%2F2019%2F03%2F13%2F%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2.html</url>
     <content type="text"><![CDATA[1动机：看到别人有，羡慕，觉得好玩，实践了一下，前后大概两小时 相关软件安装 Git Node.js Hexo Hexo 环境配置 1.Hexo主题 选一个自己喜欢的主题，我这里直接用了教程里的nexT，后面遇到喜欢的再改吧 Github 主页 12$ cd hexo$ git clone https://github.com/theme-next/hexo-theme-next themes/next 2.初始化博客 选一个空白的不需要管理员权限的文件夹，打开git bash，在终端输入下面的代码，初始化博客 123456#建立一个博客文件夹，并初始化博客，&lt;folder&gt;为文件夹的名称，可以随便起名字$ hexo init &lt;folder&gt;#进入博客文件夹，&lt;folder&gt;为文件夹的名称$ cd &lt;folder&gt;# node.js的命令，根据博客既定的dependencies配置安装所有的依赖包$ npm install 3.基本配置 比如博客名，个人介绍呀，参考了这篇文章简书:Hexo的Next主题详细配置 1.站点计数 可以直接在配置里将busuanzi的false改成true，参考文档 2.配置在线后台管理 hexo 有个插件可以在网页上对博客进行管理，但是我觉得使用起来并不流流畅，还不如使用本地markdown工具Typora，不过配不配和用不用又没什么直接关系。 3.Hexo-admin `$ nmp i hexo-admin --save` 这个时候，登录 http://localhost:4000/admin 即可查看所有文章内容，并可视化进行修改。 还可以添加配置后台账号密码，我没设置，哈哈。 4.通过域名访问博客 绑到了GitHub.io，具体教程可以看这里GitHub+Hexo 搭建个人网站详细教程 不绑域名是因为买过，然后没怎么用就忘掉了。 有机会再绑自己的域名吧 5.添加评论(2019年3月14添加) 也是超级方便几行代码，详细参考这个为你的Hexo加上评论系统-Valine 有个小bug就是，在添加appid和appkey的时候，记得删除leancloud占位符 6.给博客添加豆瓣插件 参考这里 看到人家博客还有豆瓣读书什么的，给自己也加了一个，但是好像得时长更新一下。 4.小问题 busuanzi计数问题（未解决,本地依旧不太对,添加leancloud试试） 主题语言设定问题，中文要使用 zh-CN 无需列表换行问题（未解决，可能是不同平台的问题） 数学公式无法渲染（未解决，19.3.25号了，还是解决不了，以后用图片吧 3月27号，改好了，原来是我没有找对开关，[捂脸]）]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
       <tags>
         <tag>hexo</tag>
         <tag>搭建环境</tag>

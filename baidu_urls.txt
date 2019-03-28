@@ -1,4 +1,6 @@
-http://alvinche.github.io/2019/03/27/和导师谈话后的思考.html
+http://alvinche.github.io/2019/03/28/依图科技机器学习算法测试工程师一面（19-3-28）.html
+http://alvinche.github.io/2019/03/28/阿里测试工程师一面（19-3-27）.html
+http://alvinche.github.io/2019/03/27/和导师谈话后的整理.html
 http://alvinche.github.io/2019/03/27/给博客加了点趣味.html
 http://alvinche.github.io/2019/03/21/剑指offer（第二版）学习记录卡.html
 http://alvinche.github.io/2019/03/14/hexo使用过中遇到的一个小问题.html
