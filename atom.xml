@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>袖珍椰子</title>
+  <title>图图的小打小闹</title>
   
-  <subtitle>图图的小打小闹</subtitle>
+  <subtitle>悟已往之不谏，知来者之可追</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://alvinche.github.io/"/>
-  <updated>2019-03-28T10:22:26.500Z</updated>
+  <updated>2019-04-01T02:11:18.767Z</updated>
   <id>http://alvinche.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019年第一季度总结</title>
+    <link href="http://alvinche.github.io//2019/04/01/2019%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%AD%A3%E5%BA%A6%E6%80%BB%E7%BB%93.html"/>
+    <id>http://alvinche.github.io//2019/04/01/2019年第一季度总结.html</id>
+    <published>2019-04-01T02:05:14.000Z</published>
+    <updated>2019-04-01T02:11:18.767Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="http://alvinche.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="总结" scheme="http://alvinche.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>依图科技机器学习算法测试工程师一面（19.3.28）</title>
@@ -49,7 +75,7 @@
     <link href="http://alvinche.github.io//2019/03/28/%E9%98%BF%E9%87%8C%E6%B5%8B%E8%AF%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%B8%80%E9%9D%A2%EF%BC%8819-3-27%EF%BC%89.html"/>
     <id>http://alvinche.github.io//2019/03/28/阿里测试工程师一面（19-3-27）.html</id>
     <published>2019-03-28T09:55:09.000Z</published>
-    <updated>2019-03-28T10:01:13.683Z</updated>
+    <updated>2019-03-29T08:39:34.826Z</updated>
     
     <summary type="html">
     
