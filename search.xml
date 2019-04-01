@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Leetcode-2 两数相加（Add Two Numbers）]]></title>
+    <url>%2F%2F2019%2F04%2F01%2FLeetcode-2-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0%EF%BC%88Add-Two-Numbers%EF%BC%89.html</url>
+    <content type="text"><![CDATA[1. 题目 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。 如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。 您可以假设除了数字 0 之外，这两个数都不会以 0 开头。 示例： 输入：(2 -&gt; 4 -&gt; 3) + (5 -&gt; 6 -&gt; 4) 输出：7 -&gt; 0 -&gt; 8 原因：342 + 465 = 807 2. 解题思路 简单题，注意链表操作和进位即可 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465# Definition for singly-linked list.# class ListNode:# def __init__(self, x):# self.val = x# self.next = Noneclass Solution: def addTwoNumbers(self, l1: ListNode, l2: ListNode) -&gt; ListNode: head = ans = ListNode(0) is_carry = False while l1 != None and l2 != None: num = l1.val + l2.val if is_carry: num = num + 1 if num &gt;= 10: num = num % 10 is_carry = True else: is_carry = False ans.next = ListNode(num) ans = ans.next l1 = l1.next l2 = l2.next while l1 != None: if is_carry: if l1.val + 1 &gt;= 10: ans.next = ListNode((l1.val + 1) % 10) is_carry = True else: ans.next = ListNode(l1.val + 1) is_carry = False else: ans.next = ListNode(l1.val) l1 = l1.next ans = ans.next while l2 != None: if is_carry: if l2.val + 1 &gt;= 10: ans.next = ListNode((l2.val + 1) % 10) is_carry = True else: ans.next = ListNode(l2.val + 1) is_carry = False else: ans.next = ListNode(l2.val) l2 = l2.next ans = ans.next if is_carry: ans.next = ListNode(1) is_carry = False ans = ans.next res = [] while head != None: res.append(head.val) head = head.next # return "".join([""+str(each) for each in res])[:-1] return res[1:] 3. 总结/分类 链表操作]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Leetcode -1 两数之和（Two Sum）]]></title>
     <url>%2F%2F2019%2F04%2F01%2FLeetcode-1-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%EF%BC%88Two-Sum%EF%BC%89.html</url>
     <content type="text"><![CDATA[1. 题目 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。 示例: 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] + nums[1] = 2 + 7 = 9 所以返回 [0, 1] 2. 解题思路 2.1 朴素解法（暴力遍历） 通过两次循环，每次循环遍历列表，这种算法的时间复杂度是 O(n^2) 2.2 哈希存储 思路：利用hash表，key：当前值，value：索引 解题方法：遍历数组时，查询hash表中，是否存在target - nums[i]。 若有，返回当前索引和存在的key的value； 若不存在，则将当前值和索引存入hash表中 python中的字典就是天然hash表；c++中的unorder_map； Java中HashMap&lt;Integer,Integer&gt; hm = new HashMap&lt;Integer,Integer&gt;(); 代码如下： 123456789class Solution: def twoSum(self, nums: List[int], target: int) -&gt; List[int]: nums_hash = &#123;&#125; for each in range(len(nums)): dif = target - nums[each] if dif in nums_hash: return [nums_hash[dif], each] else: nums_hash[nums[each]] = each 3. 总结/分类 数据结构的巧妙利用]]></content>
