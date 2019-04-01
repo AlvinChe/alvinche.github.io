@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Leetcode -1 两数之和（Two Sum）]]></title>
+    <url>%2F%2F2019%2F04%2F01%2FLeetcode-1-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%EF%BC%88Two-Sum%EF%BC%89.html</url>
+    <content type="text"><![CDATA[1. 题目 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。 示例: 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] + nums[1] = 2 + 7 = 9 所以返回 [0, 1] 2. 解题思路 2.1 朴素解法（暴力遍历） 通过两次循环，每次循环遍历列表，这种算法的时间复杂度是 O(n^2) 2.2 哈希存储 思路：利用hash表，key：当前值，value：索引 解题方法：遍历数组时，查询hash表中，是否存在target - nums[i]。 若有，返回当前索引和存在的key的value； 若不存在，则将当前值和索引存入hash表中 python中的字典就是天然hash表；c++中的unorder_map； Java中HashMap&lt;Integer,Integer&gt; hm = new HashMap&lt;Integer,Integer&gt;(); 代码如下： 123456789class Solution: def twoSum(self, nums: List[int], target: int) -&gt; List[int]: nums_hash = &#123;&#125; for each in range(len(nums)): dif = target - nums[each] if dif in nums_hash: return [nums_hash[dif], each] else: nums_hash[nums[each]] = each 3. 总结/分类 数据结构的巧妙利用]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[2019年第一季度总结]]></title>
     <url>%2F%2F2019%2F04%2F01%2F2019%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%AD%A3%E5%BA%A6%E6%80%BB%E7%BB%93.html</url>
     <content type="text"><![CDATA[2019年过的飞快， 第一个月： 前半段是写开题报告，然后答辩 后半段是无心做任何事，回家过年，买iPad 第二个月： 前半个月：专心过年，每天吃喝玩乐，见朋友； 后半个月：开学前一个星期回实验室，什么都不想做； 第三个月： 写了简历，开始投简历的一个月 实在是菜呀； 好的机会都被我浪费了； 第二周的腾讯； 第三四周的阿里； 第四周的远景，旷视； 第五周的依图科技； 算法题不会做； 技术知识也不了解； 口才也需要提升； 科研也没做出什么来； 读博： 经历了，想读，找工作，还是想读的心理历程； 没人看好我，自己还眼高手低，真是没救啊； 悟以往之不谏，只来者之可追。 吾将上下求索。]]></content>
