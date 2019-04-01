@@ -16,7 +16,7 @@
     <url>%2F%2F2019%2F03%2F28%2F%E4%BE%9D%E5%9B%BE%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E6%B5%8B%E8%AF%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%B8%80%E9%9D%A2%EF%BC%8819-3-28%EF%BC%89.html</url>
     <content type="text"><![CDATA[依图科技也算是四大视觉算法独角兽之一了，在牛客网上看到招聘信息，投递了一份简历。 3月28日上午11点视频面试。 1. 自我介绍 2. 项目细节 3. 了解java么（我错了！） ​ 3.1 请介绍JVM ​ 3.2 了解GC吗？ 4. 编程能力 ​ 4.1 写一个java多线程（我是真的不会啊，再也不敢说自己会java了） 123// &#123;1,2,3&#125;// &#123;4,5,6&#125;// 请用多线程同时读取两个队列求和，最后汇总 ​ 4.2 括号计算（没写出来，完全没懂面试官的提示，= =） 12345678910111213141516171819202122232425262728# ()--&gt;1# AB--&gt; A+B# (A)--&gt; A*2# 分三种情况考虑，将左括号入栈，遇到右括号出站栈。# 判断栈顶是左括号的时候，push(1)# 判断栈顶是数字时，判断栈顶前一个是数字，累加，是左括号，累乘def sum(s) -&gt; int: result = [] for each in s: if each == '(': result.append(each) elif each == ')': if result[-1] == '(': result[-1] = 1 elif isinstance(result[-1], int): ans = result[-1] result = result[:-1] while isinstance(result[-1], int): result[-1] = result[-1] + ans ans = result[-1] result = result[:-1] result[-1] = ans * 2 return result# print(sum("(()(()))"))print(sum("(()()())")) 5. 有什么要问面试官 你们主要的工作是什么： 算法框架等的深度测评，未来可能会做深度学习框架的东西 比较偏向底层，基本没有业务方面的内容 总结 简历真的要改一改，投岗位也不能胡乱来了，不同的方向内容真的差很多； 基础知识，比如写代码的能力还是要加强，基本的算法题要多看看，掌握基本的套路； 对自己的项目介绍要再多联系，要自己想明白自己做了什么。 彩蛋 实验室小伙伴面试时的算法题：leetcode 754 reach a number]]></content>
       <categories>
-        <category>找工作</category>
+        <category>工作</category>
       </categories>
       <tags>
         <tag>面经</tag>
@@ -32,7 +32,7 @@
       </categories>
       <tags>
         <tag>面经</tag>
-        <tag>找实习</tag>
+        <tag>实习</tag>
       </tags>
   </entry>
   <entry>
@@ -63,8 +63,9 @@
         <category>学习</category>
       </categories>
       <tags>
+        <tag>实习</tag>
         <tag>剑指offer</tag>
-        <tag>实习复习</tag>
+        <tag>刷题</tag>
       </tags>
   </entry>
   <entry>
