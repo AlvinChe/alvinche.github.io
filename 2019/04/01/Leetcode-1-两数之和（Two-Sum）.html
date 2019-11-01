@@ -103,18 +103,18 @@
 
 
 
-  <meta name="description" content="1. 题目  给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。 示例: 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] + nums[1] = 2 + 7 = 9 所以返回 [0, 1]   2">
+  <meta name="description" content="1. 题目 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。示例:给定 nums = [2, 7, 11, 15], target = 9因为 nums[0] + nums[1] = 2 + 7 = 9所以返回 [0, 1]  2. 解题思路2.">
 <meta name="keywords" content="leetcode">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Leetcode -1 两数之和（Two Sum）">
 <meta property="og:url" content="http://alvinche.github.io/2019/04/01/Leetcode-1-两数之和（Two-Sum）.html">
 <meta property="og:site_name" content="图图的小打小闹">
-<meta property="og:description" content="1. 题目  给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。 示例: 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] + nums[1] = 2 + 7 = 9 所以返回 [0, 1]   2">
+<meta property="og:description" content="1. 题目 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。示例:给定 nums = [2, 7, 11, 15], target = 9因为 nums[0] + nums[1] = 2 + 7 = 9所以返回 [0, 1]  2. 解题思路2.">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-04-01T05:58:21.858Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Leetcode -1 两数之和（Two Sum）">
-<meta name="twitter:description" content="1. 题目  给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。 示例: 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] + nums[1] = 2 + 7 = 9 所以返回 [0, 1]   2">
+<meta name="twitter:description" content="1. 题目 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。示例:给定 nums = [2, 7, 11, 15], target = 9因为 nums[0] + nums[1] = 2 + 7 = 9所以返回 [0, 1]  2. 解题思路2.">
 
 
 
@@ -508,7 +508,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">863</span>
+                <span title="本文字数">842</span>
               
 
               
@@ -532,29 +532,13 @@
       
 
       
-        <h4 id="1-题目"><a class="markdownIt-Anchor" href="#1-题目"></a> 1. <a href="https://leetcode-cn.com/problems/two-sum/" target="_blank" rel="noopener">题目</a></h4>
-<blockquote>
-<p>给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。<br>
-你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。<br>
-示例:<br>
-给定 nums = [2, 7, 11, 15], target = 9<br>
-因为 nums[0] + nums[1] = 2 + 7 = 9<br>
-所以返回 [0, 1]</p>
+        <h4 id="1-题目"><a href="#1-题目" class="headerlink" title="1. 题目"></a>1. <a href="https://leetcode-cn.com/problems/two-sum/" target="_blank" rel="noopener">题目</a></h4><blockquote>
+<p>给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。<br>你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。<br>示例:<br>给定 nums = [2, 7, 11, 15], target = 9<br>因为 nums[0] + nums[1] = 2 + 7 = 9<br>所以返回 [0, 1]</p>
 </blockquote>
-<h4 id="2-解题思路"><a class="markdownIt-Anchor" href="#2-解题思路"></a> 2. 解题思路</h4>
-<h5 id="21-朴素解法暴力遍历"><a class="markdownIt-Anchor" href="#21-朴素解法暴力遍历"></a> 2.1 朴素解法（暴力遍历）</h5>
-<p>通过两次循环，每次循环遍历列表，这种算法的时间复杂度是 <code>O(n^2)</code></p>
-<h5 id="22-哈希存储"><a class="markdownIt-Anchor" href="#22-哈希存储"></a> 2.2 哈希存储</h5>
-<p>思路：利用hash表，key：当前值，value：索引<br>
-解题方法：遍历数组时，查询hash表中，是否存在target - nums[i]。<br>
-若有，返回当前索引和存在的key的value；<br>
-若不存在，则将当前值和索引存入hash表中<br>
-python中的字典就是天然hash表；c++中的unorder_map；<br>
-Java中<code>HashMap&lt;Integer,Integer&gt; hm = new HashMap&lt;Integer,Integer&gt;();</code></p>
-<p>代码如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">twoSum</span><span class="params">(self, nums: List[int], target: int)</span> -&gt; List[int]:</span></span><br><span class="line">        nums_hash = &#123;&#125;</span><br><span class="line">        <span class="keyword">for</span> each <span class="keyword">in</span> range(len(nums)):</span><br><span class="line">            dif = target - nums[each]</span><br><span class="line">            <span class="keyword">if</span> dif <span class="keyword">in</span> nums_hash:</span><br><span class="line">                <span class="keyword">return</span> [nums_hash[dif], each]</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                nums_hash[nums[each]] = each</span><br></pre></td></tr></table></figure>
-<h4 id="3-总结分类"><a class="markdownIt-Anchor" href="#3-总结分类"></a> 3. 总结/分类</h4>
-<p>数据结构的巧妙利用</p>
+<h4 id="2-解题思路"><a href="#2-解题思路" class="headerlink" title="2. 解题思路"></a>2. 解题思路</h4><h5 id="2-1-朴素解法（暴力遍历）"><a href="#2-1-朴素解法（暴力遍历）" class="headerlink" title="2.1 朴素解法（暴力遍历）"></a>2.1 朴素解法（暴力遍历）</h5><p>通过两次循环，每次循环遍历列表，这种算法的时间复杂度是 <code>O(n^2)</code></p>
+<h5 id="2-2-哈希存储"><a href="#2-2-哈希存储" class="headerlink" title="2.2 哈希存储"></a>2.2 哈希存储</h5><p>思路：利用hash表，key：当前值，value：索引<br>解题方法：遍历数组时，查询hash表中，是否存在target - nums[i]。<br>若有，返回当前索引和存在的key的value；<br>若不存在，则将当前值和索引存入hash表中<br>python中的字典就是天然hash表；c++中的unorder_map；<br>Java中<code>HashMap&lt;Integer,Integer&gt; hm = new HashMap&lt;Integer,Integer&gt;();</code></p>
+<p>代码如下：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">twoSum</span><span class="params">(self, nums: List[int], target: int)</span> -&gt; List[int]:</span></span><br><span class="line">        nums_hash = &#123;&#125;</span><br><span class="line">        <span class="keyword">for</span> each <span class="keyword">in</span> range(len(nums)):</span><br><span class="line">            dif = target - nums[each]</span><br><span class="line">            <span class="keyword">if</span> dif <span class="keyword">in</span> nums_hash:</span><br><span class="line">                <span class="keyword">return</span> [nums_hash[dif], each]</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                nums_hash[nums[each]] = each</span><br></pre></td></tr></table></figure></p>
+<h4 id="3-总结-分类"><a href="#3-总结-分类" class="headerlink" title="3. 总结/分类"></a>3. 总结/分类</h4><p>数据结构的巧妙利用</p>
 
       
     </div>
@@ -754,7 +738,7 @@ Java中<code>HashMap&lt;Integer,Integer&gt; hm = new HashMap&lt;Integer,Integer&
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">14</span>
+                    <span class="site-state-item-count">15</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -779,7 +763,9 @@ Java中<code>HashMap&lt;Integer,Integer&gt; hm = new HashMap&lt;Integer,Integer&
                     
                       
                     
-                    <span class="site-state-item-count">4</span>
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -822,7 +808,9 @@ Java中<code>HashMap&lt;Integer,Integer&gt; hm = new HashMap&lt;Integer,Integer&
                     
                       
                     
-                    <span class="site-state-item-count">13</span>
+                      
+                    
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -903,7 +891,7 @@ Java中<code>HashMap&lt;Integer,Integer&gt; hm = new HashMap&lt;Integer,Integer&
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-题目"><span class="nav-text"> 1. 题目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-解题思路"><span class="nav-text"> 2. 解题思路</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#21-朴素解法暴力遍历"><span class="nav-text"> 2.1 朴素解法（暴力遍历）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#22-哈希存储"><span class="nav-text"> 2.2 哈希存储</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-总结分类"><span class="nav-text"> 3. 总结/分类</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-题目"><span class="nav-text">1. 题目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-解题思路"><span class="nav-text">2. 解题思路</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2-1-朴素解法（暴力遍历）"><span class="nav-text">2.1 朴素解法（暴力遍历）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-2-哈希存储"><span class="nav-text">2.2 哈希存储</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-总结-分类"><span class="nav-text">3. 总结/分类</span></a></li></ol></div>
             
 
           </div>
